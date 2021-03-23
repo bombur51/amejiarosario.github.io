@@ -1447,7 +1447,7 @@ Removing first/last can be done in constant-time; however, eliminating in the mi
 
 <!-- https://docs.oracle.com/javase/10/docs/api/java/util/Stack.html -->
 
-Stacks is a data structure where the last entered data is the first to come out. Also know as Last-in, First-out (LIFO).
+Stacks is a data structure where the last entered data is the first to come out. Also known as Last-in, First-out (LIFO).
 
 {% img /images/stack.jpg "Stack: push and pop" %}
 
@@ -1610,7 +1610,7 @@ Using a doubly-linked list with the last element reference, we achieve an `add` 
 
 ## Summary
 
-We explored most of the linear data structures. We saw that depending on how we implement the data structures. There are different runtimes.
+We explored most of the linear data structures. We saw that depending on how we implement the data structures, there are different runtimes.
 
 Here's a summary of everything that we explored. You can click on each runtime, and it will take you to the implementation.
 <!-- there is not a generic runtime for the operations because it depends more  -->
@@ -1636,7 +1636,7 @@ Set (using Binary Search Tree) | O(log(n)) | - |  O(log(n)) |  O(log(n)) | Imple
 [Queue (array implementation)](#QueueArrayImpl) | [O(1)](#QueueArrayImpl) | - | - | [O(1)](#QueueArrayImpl) | Worst time insert is O(n). However amortized is O(1)
 [Queue (list implementation)](#QueueListImpl) | [O(1)](#QueueListImpl) | - | - | [O(1)](#QueueListImpl) | Using Doubly Linked List with reference to the last element.
 
-Note: **Binary search trees** and trees, in general, will be cover in the next post. Also, graph data structures.
+Note: **Binary search trees** and trees, in general, will be covered in the next post. Also, graph data structures.
 
 
 
